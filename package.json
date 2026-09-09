@@ -1,0 +1,27 @@
+{
+  "name": "cse340-backend-development",
+  "version": "1.0.0",
+  "description": "An introductory backend development course with BYU Pathway",
+  "homepage": "https://github.com/Ilegubo/CSE340-Backend-Development#readme",
+  "bugs": {
+    "url": "https://github.com/Ilegubo/CSE340-Backend-Development/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilegubo/CSE340-Backend-Development.git"
+  },
+  "license": "ISC",
+  "author": "Ilegubo Owusu",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+  "dev": "nodemon",
+  "start": "node server.js"
+},
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
