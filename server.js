@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 /**
-  * Configure Express middleware
+  * Configure Express  middleware
   */
 
 // Serve static files from the public directory
